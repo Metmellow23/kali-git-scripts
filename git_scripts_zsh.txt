@@ -95,3 +95,6 @@ git diff
 → **git dalları birleştirme(master adlı dalda oldugunu varsayalım):**
 
 git merge <ikinci_dal>
+
+-> **git dal ismi değiştirme:**
+git branch -m <değiştirmek-istediğin-dali-ismi> <yeni-isim>
