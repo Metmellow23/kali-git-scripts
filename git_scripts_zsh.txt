@@ -1,0 +1,97 @@
+→ **Kendini sisteme tanıtma:** 
+
+git config —global [user.name](http://user.name)  “ismin”
+
+git config —global [user.mail](http://user.email)  “mail”
+
+→I**sim ve maili kontrol etme:**
+
+git config —global user.name
+
+git config —global user.mail
+
+→P**rojeyi git projesi yapmak:**
+
+git init
+
+→**Dosya değişikliğini staging area (geçiş bölgesi) taşıma:**
+
+git add .
+
+→ **Dosya değişikliğini git deposuna gonderme:**
+
+→ git commit -m “versiyon”
+
+→**Versiyonları (değişiklikleri) görme:**
+
+git log
+
+→**Değişikliğin kaydedilip kaydedilmediğine bakmak:**
+
+git status
+
+→**Değişikliği görme:**
+
+git diff
+
+→**Dosya silme:**
+
+git rm <dosya adı>
+
+→**Dosya adını değiştirme:**
+
+git mv <mevcut dosya> <istediğin isim>
+
+→**Staged değişikliği geri alma:**
+
+git restore --staged <file>
+
+→**Git versiyon değiştirme:**
+
+git restore --source=<log id> dosya.txt
+
+→**Git repo tanımlama:**
+
+git remote add <takma isim> github repo  linki
+
+→**Kontrol etme:**
+
+git remote
+
+→**Gizli dosya oluşturup içine dosya ismini yazma:**
+
+cat >> .gitignore
+
+Dosya ismi
+
+dizin/* (dizindeki tüm dosyalar)
+
+!dizin/abc.txt (bu dosya hariç)
+
+→**githubdaki değişikliği locale eklemek:**
+
+git pull
+
+→**mevcut dalı görüntüleme:**
+
+git branch
+
+→**Git dal oluşturma:**
+
+git branch <dal_ismi>
+
+→ **githubdaki dalları listele:**
+
+git branch —all
+
+**→git dalına geçiş:**
+
+git checkout <geçmek_istdeiğin_dal>
+
+**→git dallar arasındaki fark:**
+
+git diff
+
+→ **git dalları birleştirme(master adlı dalda oldugunu varsayalım):**
+
+git merge <ikinci_dal>
